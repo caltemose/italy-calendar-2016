@@ -16,4 +16,4 @@ function displayCalendar (data) {
 
 const Ajax = require('./modules/ajax').default
 let ajax = new Ajax();
-ajax.getJSON('/calendar.json').then(displayCalendar);
+ajax.getJSON('calendar.json').then(displayCalendar);

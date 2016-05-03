@@ -1,0 +1,226 @@
+{
+    "days": [
+        {
+            "date": "2016-08-17",
+            "location": "atlanta",
+            "items": [
+                {
+                    "icon": "plane",
+                    "text": "Leave Atlanta (6:41PM, DL 64)"
+                }
+            ]
+        }, {
+            "date": "2016-08-18",
+            "location": "ischia",
+            "items": [
+                {
+                    "icon": "plane",
+                    "text": "Arrive Rome (10:15AM)"
+                }, {
+                    "icon": "train",
+                    "text": "Travel to Ischia"
+                }
+            ]
+        }, {
+            "date": "2016-08-19",
+            "location": "ischia",
+            "items": []
+        }, {
+            "date": "2016-08-20",
+            "location": "ischia",
+            "items": [
+                {
+                    "text": "Celebrate Chad's Birthday!"
+                }
+            ]
+        }, {
+            "date": "2016-08-21",
+            "location": "ischia",
+            "items": []
+        }, {
+            "date": "2016-08-22",
+            "location": "ischia",
+            "items": []
+        }, {
+            "date": "2016-08-23",
+            "location": "ischia",
+            "items": []
+        }, {
+            "date": "2016-08-24",
+            "location": "bomba",
+            "items": [
+                {
+                    "icon": "car",
+                    "text": "Travel to Abruzzo"
+                }, {
+                    "text": "Celebrate Dad's B-day"
+                }
+            ]
+        }, {
+            "date": "2016-08-25",
+            "location": "bomba",
+            "items": []
+        }, {
+            "date": "2016-08-26",
+            "location": "bomba",
+            "items": []
+        }, {
+            "date": "2016-08-27",
+            "location": "bomba",
+            "items": [
+                {
+                    "text": "Mangia bene nella cucina al fresco"
+                }
+            ]
+        }, {
+            "date": "2016-08-28",
+            "location": "bomba",
+            "items": [
+                {
+                    "text": "Festival Day 1"
+                }
+            ]
+        }, {
+            "date": "2016-08-29",
+            "location": "bomba",
+            "items": [
+                {
+                    "text": "Festival Day 2"
+                }
+            ]
+        }, {
+            "date": "2016-08-30",
+            "location": "bomba",
+            "items": [
+                {
+                    "icon": "car",
+                    "text": "Travel to Naples"
+                }
+            ]
+        }, {
+            "date": "2016-08-31",
+            "location": "naples",
+            "items": []
+        }, {
+            "date": "2016-09-01",
+            "location": "naples",
+            "items": []
+        }, {
+            "date": "2016-09-02",
+            "location": "naples",
+            "items": []
+        }, {
+            "date": "2016-09-03",
+            "location": "naples",
+            "items": [
+                {
+                    "text": "Visit Etna and Valle Alcantara"
+                }
+            ]
+        }, {
+            "date": "2016-09-04",
+            "location": "naples",
+            "items": []
+        }, {
+            "date": "2016-09-05",
+            "location": "taormina",
+            "items": [
+                {
+                    "text": "Travel to Taormina"
+                }
+            ]
+        }, {
+            "date": "2016-09-06",
+            "location": "taormina",
+            "items": [
+                {
+                    "text": "Groceries, rest"
+                }
+            ]
+        }, {
+            "date": "2016-09-07",
+            "location": "taormina",
+            "items": []
+        }, {
+            "date": "2016-09-08",
+            "location": "taormina",
+            "items": []
+        }, {
+            "date": "2016-09-09",
+            "location": "taormina",
+            "items": [
+                {
+                    "icon": "train",
+                    "text": "Travel to Palermo"
+                }
+            ]
+        }, {
+            "date": "2016-09-10",
+            "location": "palermo",
+            "items": []
+        }, {
+            "date": "2016-09-11",
+            "location": "palermo",
+            "items": []
+        }, {
+            "date": "2016-09-12",
+            "location": "palermo",
+            "items": [
+                {
+                    "text": "Celebrate Mom's birthday!"
+                }
+            ]
+        }, {
+            "date": "2016-09-13",
+            "location": "palermo",
+            "items": []
+        }, {
+            "date": "2016-09-14",
+            "location": "palermo",
+            "items": [
+            ]
+        }, {
+            "date": "2016-09-15",
+            "location": "palermo",
+            "items": []
+        }, {
+            "date": "2016-09-16",
+            "location": "palermo",
+            "items": []
+        }, {
+            "date": "2016-09-17",
+            "location": "palermo",
+            "items": []
+        }, {
+            "date": "2016-09-18",
+            "location": "rome",
+            "items": [
+                {
+                    "icon": "plane",
+                    "text": "Leave for Rome"
+                }
+            ]
+        }, {
+            "date": "2016-09-19",
+            "location": "rome",
+            "items": []
+        }, {
+            "date": "2016-09-20",
+            "location": "rome",
+            "items": []
+        }, {
+            "date": "2016-09-21",
+            "location": "rome",
+            "items": []
+        }, {
+            "date": "2016-09-22",
+            "location": "rome",
+            "items": [
+                {
+                    "icon": "plain",
+                    "text": "FCO - ATL (12:15PM, DL 65)"
+                }
+            ]
+        }
+    ]
+}

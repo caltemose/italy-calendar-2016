@@ -7,5 +7,34 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-  <h1 data-module="example">Hello World!</h1>
+    <h1 class="container">Italy 2016 Travel Calendar</h1>
+
+    <section class="calendar">
+        <ul class="calendar-header">
+            <li>
+                <h2>Sunday</h2>
+            </li>
+            <li>
+                <h2>Monday</h2>
+            </li>
+            <li>
+                <h2>Tuesday</h2>
+            </li>
+            <li>
+                <h2>Wednesday</h2>
+            </li>
+            <li>
+                <h2>Thursday</h2>
+            </li>
+            <li>
+                <h2>Friday</h2>
+            </li>
+            <li>
+                <h2>Saturday</h2>
+            </li>
+        </ul>
+
+        <ul id="days" class="calendar-days"></ul>
+    </section>
+
 {% endblock %}

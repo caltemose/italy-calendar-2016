@@ -1,0 +1,134 @@
+.calendar
+
+
+.calendar-header
+    display: none
+    list-style: none
+
+    @media (min-width: $bp-multi-column)
+        display: flex
+        flex-direction: row
+        align-items: stretch
+
+    li
+        width: $day_width_percent
+        padding: 0.25em
+        border: 1px solid #aaa
+        background-color: #eee
+
+    h2
+        margin: 0
+        padding: 0
+        font-size: 1em
+
+.calendar-days
+
+    list-style: none
+
+    @media (min-width: $bp-multi-column)
+        display: flex
+        flex-wrap: wrap
+        flex-direction: row
+        align-items: stretch
+
+    > li
+        position: relative
+        border: 1px solid #aaa
+        display: flex
+
+        @media (min-width: $bp-multi-column)
+            flex: 1 0 $day_width_percent
+            padding-bottom: 2.5rem
+
+    h2
+        margin: 0
+        padding: 0.5rem
+        font-size: 0.9em
+        background-color: #fafafa
+
+        @media (min-width: $bp-multi-column)
+            padding: 0.25rem 0.5rem
+
+        small
+            display: inline-block
+            float: right
+            @media (min-width: $bp-multi-column)
+                display: none
+
+    h3
+        display: none
+
+        @media (min-width: $bp-multi-column)
+            display: block
+            position: absolute
+            width: 100%
+            bottom: 0
+            margin: 0
+            padding: 0.5rem
+
+.location-bar
+    flex: 1 0 10%
+
+    @media (min-width: $bp-multi-column)
+        display: none
+
+
+.content
+    flex: 1 0 90%
+
+    > h3
+        display: none
+
+        @media (min-width: $bp-multi-column)
+            display: block
+            font-size: 0.75em
+            font-weight: normal
+            color: #555
+
+.day-items
+    margin: 0
+    padding: 0.5rem
+    border: none
+    list-style: none
+    font-size: 0.75em
+
+    > li
+        margin-bottom: 0.4rem
+
+        &:before
+            display: inline-block
+            margin-right: 0.5em
+            line-height: 1
+            transform: translateY(2px)
+
+.location-default .location-bar,
+.location-default h3
+    background-color: $bg-default
+
+.location-atlanta .location-bar,
+.location-atlanta h3
+    background-color: $bg-atlanta
+
+.location-ischia .location-bar,
+.location-ischia h3
+    background-color: $bg-ischia
+
+.location-bomba .location-bar,
+.location-bomba h3
+    background-color: $bg-bomba
+
+.location-naples .location-bar,
+.location-naples h3
+    background-color: $bg-naples
+
+.location-taormina .location-bar,
+.location-taormina h3
+    background-color: $bg-taormina
+
+.location-palermo .location-bar,
+.location-palermo h3
+    background-color: $bg-palermo
+
+.location-rome .location-bar,
+.location-rome h3
+    background-color: $bg-rome

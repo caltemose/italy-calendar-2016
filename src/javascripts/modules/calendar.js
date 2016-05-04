@@ -1,9 +1,8 @@
 let moment = require('moment')
-let dayTemplate = require('../../html/shared/day.nunj')
+let dayTemplate = require('../../html/shared/day.nunjucks')
 const DATE_FORMAT = 'YYYY-MM-DD'
 
 export default class Calendar {
-
     constructor(el, data) {
         this.init(el, data)
     }
@@ -32,7 +31,8 @@ export default class Calendar {
         if (firstIndex > 0) {
             for(let i=0; i<firstIndex; i++) {
                 let day = {
-                    date: firstDay.subtract(1, 'days').format(DATE_FORMAT)
+                    date: firstDay.subtract(1, 'days').format(DATE_FORMAT),
+                    outOfBounds: true // indicator that this day isn't in the trip
                 }
                 days.unshift(day)
             }
@@ -46,7 +46,8 @@ export default class Calendar {
         if (lastIndex < 6) {
             for(let i=1; i<=6-lastIndex; i++) {
                 let day = {
-                    date: lastDay.add(1, 'days').format(DATE_FORMAT)
+                    date: lastDay.add(1, 'days').format(DATE_FORMAT),
+                    outOfBounds: true
                 }
                 days.push(day)
             }
@@ -64,5 +65,4 @@ export default class Calendar {
         }
         this.element.innerHTML = html
     }
-
 }

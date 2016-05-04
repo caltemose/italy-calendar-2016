@@ -1,18 +1,15 @@
 <li class="{% if location%}location-{{location}}{% else%}location-default{% endif %}">
     <div class="location-bar"></div>
     <div class="content">
-        <h2>{{dayNumber}}<small>{{dayOfWeek}}</small></h2>
+        <h2 {% if location %}class="location-{{location}}"{% endif %}>{{dayNumber}}<small>{{dayOfWeek}}</small></h2>
 
         <ul class="day-items">
             {% for item in items %}
                 <li class="{% if item.icon %}icon -{{item.icon}}{% endif %}">
-                    <span class="hint--top" data-hint="DL 1024 (6:00PM)">{{item.text}}</span>
+                    <span {% if item.details %}class="hint--top" data-hint="{{item.details}}"{% endif %}>{{item.title}}</span>
                 </li>
             {% endfor %}
         </ul>
 
-        {% if location %}
-            <h3>{{location}}</h3>
-        {% endif %}
     </div>
 </li>

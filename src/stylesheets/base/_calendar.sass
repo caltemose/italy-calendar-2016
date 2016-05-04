@@ -1,6 +1,3 @@
-.calendar
-
-
 .calendar-header
     display: none
     list-style: none
@@ -22,7 +19,6 @@
         font-size: 1em
 
 .calendar-days
-
     list-style: none
 
     @media (min-width: $bp-multi-column)
@@ -35,6 +31,10 @@
         position: relative
         border: 1px solid #aaa
         display: flex
+
+        // &:nth-child(7n+1)
+        //     h2
+        //         background-color: #eee
 
         @media (min-width: $bp-multi-column)
             flex: 1 0 $day_width_percent
@@ -97,38 +97,56 @@
 
         &:before
             display: inline-block
-            margin-right: 0.5em
+            margin-right: 0
+            font-size: 15px
             line-height: 1
-            transform: translateY(2px)
+            transform: translateY(3px)
 
-.location-default .location-bar,
-.location-default h3
+.location-default .location-bar
     background-color: $bg-default
 
-.location-atlanta .location-bar,
-.location-atlanta h3
+.location-atlanta .location-bar
     background-color: $bg-atlanta
 
-.location-ischia .location-bar,
-.location-ischia h3
+.location-ischia .location-bar
     background-color: $bg-ischia
 
-.location-bomba .location-bar,
-.location-bomba h3
+.location-bomba .location-bar
     background-color: $bg-bomba
 
-.location-naples .location-bar,
-.location-naples h3
+.location-naples .location-bar
     background-color: $bg-naples
 
-.location-taormina .location-bar,
-.location-taormina h3
+.location-taormina .location-bar
     background-color: $bg-taormina
 
-.location-palermo .location-bar,
-.location-palermo h3
+.location-palermo .location-bar
     background-color: $bg-palermo
 
-.location-rome .location-bar,
-.location-rome h3
+.location-rome .location-bar
     background-color: $bg-rome
+
+@media (min-width: $bp-multi-column)
+    .location-default h2
+        background-color: $bg-default
+
+    .location-atlanta h2
+        background-color: $bg-atlanta
+
+    .location-ischia h2
+        background-color: $bg-ischia
+
+    .location-bomba h2
+        background-color: $bg-bomba
+
+    .location-naples h2
+        background-color: $bg-naples
+
+    .location-taormina h2
+        background-color: $bg-taormina
+
+    .location-palermo h2
+        background-color: $bg-palermo
+
+    .location-rome h2
+        background-color: $bg-rome

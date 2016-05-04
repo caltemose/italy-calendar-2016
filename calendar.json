@@ -6,7 +6,8 @@
             "items": [
                 {
                     "icon": "plane",
-                    "text": "Leave Atlanta (6:41PM, DL 64)"
+                    "title": "Leave Atlanta",
+                    "details": "6:41PM, DL 64"
                 }
             ]
         }, {
@@ -15,10 +16,12 @@
             "items": [
                 {
                     "icon": "plane",
-                    "text": "Arrive Rome (10:15AM)"
+                    "title": "Arrive Rome",
+                    "details": "10:15AM"
                 }, {
                     "icon": "train",
-                    "text": "Travel to Ischia"
+                    "title": "Travel to Ischia",
+                    "details": "Ischia arrival info..."
                 }
             ]
         }, {
@@ -30,7 +33,7 @@
             "location": "ischia",
             "items": [
                 {
-                    "text": "Celebrate Chad's Birthday!"
+                    "title": "Celebrate Chad's Birthday!"
                 }
             ]
         }, {
@@ -51,9 +54,9 @@
             "items": [
                 {
                     "icon": "car",
-                    "text": "Travel to Abruzzo"
+                    "title": "Travel to Abruzzo"
                 }, {
-                    "text": "Celebrate Dad's B-day"
+                    "title": "Celebrate Dad's B-day"
                 }
             ]
         }, {
@@ -67,17 +70,13 @@
         }, {
             "date": "2016-08-27",
             "location": "bomba",
-            "items": [
-                {
-                    "text": "Mangia bene nella cucina al fresco"
-                }
-            ]
+            "items": []
         }, {
             "date": "2016-08-28",
             "location": "bomba",
             "items": [
                 {
-                    "text": "Festival Day 1"
+                    "title": "Festival Day 1"
                 }
             ]
         }, {
@@ -85,7 +84,7 @@
             "location": "bomba",
             "items": [
                 {
-                    "text": "Festival Day 2"
+                    "title": "Festival Day 2"
                 }
             ]
         }, {
@@ -94,7 +93,7 @@
             "items": [
                 {
                     "icon": "car",
-                    "text": "Travel to Naples"
+                    "title": "Travel to Naples"
                 }
             ]
         }, {
@@ -113,9 +112,6 @@
             "date": "2016-09-03",
             "location": "naples",
             "items": [
-                {
-                    "text": "Visit Etna and Valle Alcantara"
-                }
             ]
         }, {
             "date": "2016-09-04",
@@ -126,7 +122,7 @@
             "location": "taormina",
             "items": [
                 {
-                    "text": "Travel to Taormina"
+                    "title": "Travel to Taormina"
                 }
             ]
         }, {
@@ -134,13 +130,17 @@
             "location": "taormina",
             "items": [
                 {
-                    "text": "Groceries, rest"
+                    "title": "Groceries, rest"
                 }
             ]
         }, {
             "date": "2016-09-07",
             "location": "taormina",
-            "items": []
+            "items": [
+                {
+                    "title": "Visit Etna / Valle Alcantara"
+                }
+            ]
         }, {
             "date": "2016-09-08",
             "location": "taormina",
@@ -151,7 +151,7 @@
             "items": [
                 {
                     "icon": "train",
-                    "text": "Travel to Palermo"
+                    "title": "Travel to Palermo"
                 }
             ]
         }, {
@@ -167,7 +167,7 @@
             "location": "palermo",
             "items": [
                 {
-                    "text": "Celebrate Mom's birthday!"
+                    "title": "Celebrate Mom's birthday!"
                 }
             ]
         }, {
@@ -197,7 +197,7 @@
             "items": [
                 {
                     "icon": "plane",
-                    "text": "Leave for Rome"
+                    "title": "Leave for Rome"
                 }
             ]
         }, {
@@ -217,8 +217,9 @@
             "location": "rome",
             "items": [
                 {
-                    "icon": "plain",
-                    "text": "FCO - ATL (12:15PM, DL 65)"
+                    "icon": "plane",
+                    "title": "FCO - ATL",
+                    "details": "12:15PM, DL 65"
                 }
             ]
         }

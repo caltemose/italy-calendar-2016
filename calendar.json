@@ -22,6 +22,10 @@
                     "icon": "train",
                     "title": "Travel to Ischia",
                     "details": "Ischia arrival info..."
+                }, {
+                    "icon": "house",
+                    "title": "Travel to Ravino Gardens",
+                    "details": "hydrofoil: MOLO BEVERELLO to FORIO or ISCHIA<br>Residence Villa Ravino, Via Provinciale Panza, Forio<br>public bus Nr. 1 / 2 / CS<br>your stop: Distributore IP (petrol pump IP )<br>we are 50 mt further on, on the left side"
                 }
             ]
         }, {
@@ -110,20 +114,21 @@
             "items": []
         }, {
             "date": "2016-09-03",
-            "location": "naples",
-            "items": [
-            ]
-        }, {
-            "date": "2016-09-04",
-            "location": "naples",
-            "items": []
-        }, {
-            "date": "2016-09-05",
             "location": "taormina",
             "items": [
                 {
                     "title": "Travel to Taormina"
                 }
+            ]
+        }, {
+            "date": "2016-09-04",
+            "location": "taormina",
+            "items": [
+            ]
+        }, {
+            "date": "2016-09-05",
+            "location": "taormina",
+            "items": [
             ]
         }, {
             "date": "2016-09-06",

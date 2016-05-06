@@ -93,6 +93,7 @@
     font-size: 0.75em
 
     > li
+        position: relative
         margin-bottom: 0.4rem
 
         &:before
@@ -101,6 +102,23 @@
             font-size: 15px
             line-height: 1
             transform: translateY(3px)
+
+
+.details
+    display: none
+    position: absolute
+    top: 3px
+    left: 3px
+    right: 0
+    margin: 0
+    padding: 5px
+    background-color: $details-bg
+    z-index: 10
+    border: $details-border
+
+.details.is-active
+    display: block
+
 
 .location-default .location-bar
     background-color: $bg-default

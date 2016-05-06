@@ -1,9 +1,11 @@
+var Q = require('q')
+
 export default class Ajax {
   constructor() {}
 
   getJSON(url) {
       var xhr = new XMLHttpRequest();
-      var d = Promise.defer();
+      var d = Q.defer();
       xhr.onreadystatechange = function () {
           if (xhr.readyState === 4) {
               if (xhr.status === 200) {

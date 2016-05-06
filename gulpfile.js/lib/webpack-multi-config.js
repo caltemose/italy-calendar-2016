@@ -26,6 +26,7 @@ module.exports = function(env) {
       extensions: [''].concat(extensions)
     },
     module: {
+      noParse: [/moment.js/],
       loaders: [
         {
           test: /\.js$/,

@@ -20,7 +20,8 @@
                     "details": "10:15AM"
                 }, {
                     "icon": "train",
-                    "title": "Travel to Ischia",
+                    "title": "Ischia",
+                    "emphasize": true,
                     "details": "Ischia arrival info..."
                 }, {
                     "icon": "house",
@@ -58,7 +59,8 @@
             "items": [
                 {
                     "icon": "car",
-                    "title": "Travel to Abruzzo"
+                    "title": "Abruzzo",
+                    "emphasize": true
                 }, {
                     "title": "Celebrate Dad's B-day"
                 }
@@ -97,7 +99,8 @@
             "items": [
                 {
                     "icon": "car",
-                    "title": "Travel to Naples"
+                    "title": "Napoli",
+                    "emphasize": true
                 }
             ]
         }, {
@@ -117,7 +120,8 @@
             "location": "taormina",
             "items": [
                 {
-                    "title": "Travel to Taormina"
+                    "title": "Taormina",
+                    "emphasize": true
                 }
             ]
         }, {
@@ -153,7 +157,8 @@
             "items": [
                 {
                     "icon": "train",
-                    "title": "Travel to Palermo"
+                    "title": "Palermo",
+                    "emphasize": true
                 }
             ]
         }, {
@@ -199,7 +204,8 @@
             "items": [
                 {
                     "icon": "plane",
-                    "title": "Leave for Rome"
+                    "title": "Roma",
+                    "emphasize": true
                 }
             ]
         }, {
@@ -216,7 +222,7 @@
             "items": []
         }, {
             "date": "2016-09-22",
-            "location": "rome",
+            "location": "atlanta",
             "items": [
                 {
                     "icon": "plane",

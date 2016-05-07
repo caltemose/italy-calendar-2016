@@ -1,15 +1,15 @@
 {
-  "name": "gulp-starter",
+  "name": "italy-calendar-2016",
   "version": "3.1.0",
-  "description": "A full featured configurable gulp asset pipeline and static site builder",
+  "description": "A responsive calendar for displaying travel data.",
   "engines": {
     "node": ">=0.12.0 ~5.9.0",
     "npm": ">=2.14.12 ~3.7.3"
   },
-  "homepage": "http://code.viget.com/gulp-starter/",
+  "homepage": "http://caltemose.github.io/italy-calendar-2016/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vigetlabs/gulp-starter.git"
+    "url": "git://github.com/caltemose/italy-calendar-2016.git"
   },
   "scripts": {
     "start": "gulp",

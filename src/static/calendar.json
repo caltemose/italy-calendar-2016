@@ -93,7 +93,7 @@
             ]
         }, {
             "date": "2016-08-30",
-            "location": "bomba",
+            "location": "naples",
             "items": [
                 {
                     "icon": "car",
@@ -135,16 +135,13 @@
             "location": "taormina",
             "items": [
                 {
-                    "title": "Groceries, rest"
+                    "title": "Visit Etna / Valle Alcantara"
                 }
             ]
         }, {
             "date": "2016-09-07",
             "location": "taormina",
             "items": [
-                {
-                    "title": "Visit Etna / Valle Alcantara"
-                }
             ]
         }, {
             "date": "2016-09-08",
@@ -152,7 +149,7 @@
             "items": []
         }, {
             "date": "2016-09-09",
-            "location": "taormina",
+            "location": "palermo",
             "items": [
                 {
                     "icon": "train",

@@ -13,7 +13,8 @@
 
     "static": {
       "src": "static",
-      "dest": "./"
+      "dest": "./",
+      "extensions": ["json"]
     },
 
     "js": {

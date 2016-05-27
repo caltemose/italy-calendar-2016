@@ -6,7 +6,6 @@ const DATE_FORMAT = 'YYYY-MM-DD'
 const ACTIVE_CLASS = 'is-active'
 
 
-
 export default class Calendar {
     constructor(el, data) {
         this.init(el, data)
@@ -14,8 +13,8 @@ export default class Calendar {
 
     init(el, data) {
         this.element = el
-        if (data.days) {
-            this.createDaysArray(data.days);
+        if (data) {
+            this.createDaysArray(data);
             this.drawDayLines(this.days);
             this.activateDetails();
         }
@@ -83,13 +82,13 @@ export default class Calendar {
                 let details = item.getElementsByClassName('details')
                 if (details.length) {
                     detailsItems.push(details[0])
-                    item.addEventListener('click', this.onItemClick.bind(this))
+                    item.addEventListener('click', this.onDetailsClick.bind(this))
                 }
             }
         }
     }
 
-    onItemClick(e) {
+    onDetailsClick(e) {
         // if nextElementSibling is '.details', h4 was clicked
         let details = e.target.nextElementSibling
         let classList = null

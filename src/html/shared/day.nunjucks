@@ -5,14 +5,19 @@
 
         <ul class="day-items">
             {% for item in items %}
-                <li>
+                <li {% if item.details %}class="has-details"{% endif %}>
                     <h4>
                         {% if item.emphasize %}<em>{% endif %}
                         {{item.title}}
                         {% if item.emphasize %}</em>{% endif %}
+                        {% if item.link %}
+                        <a href="{{item.link.url}}">{{item.link.title}}</a>
+                        {% endif %}
                     </h4>
                     {% if item.details %}
-                    <div class="details">{{item.details|safe}}</div>
+                    <div class="details">
+                        {{item.details|safe}}
+                    </div>
                     {% endif %}
                 </li>
             {% endfor %}

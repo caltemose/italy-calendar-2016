@@ -105,6 +105,20 @@
             line-height: 1
             transform: translateY(3px)
 
+        &.has-details
+            &:hover
+                cursor: pointer
+
+            h4
+                color: $item-has-details
+
+        h4
+            em
+                pointer-events: none
+
+            a
+                display: block
+
 
 .details
     display: none
@@ -131,8 +145,8 @@
 .location-ischia .location-bar
     background-color: $bg-ischia
 
-.location-bomba .location-bar
-    background-color: $bg-bomba
+.location-chieti .location-bar
+    background-color: $bg-chieti
 
 .location-naples .location-bar
     background-color: $bg-naples
@@ -143,8 +157,8 @@
 .location-palermo .location-bar
     background-color: $bg-palermo
 
-.location-rome .location-bar
-    background-color: $bg-rome
+.location-roma .location-bar
+    background-color: $bg-roma
 
 @media (min-width: $bp-multi-column)
     .location-default h2
@@ -156,8 +170,8 @@
     .location-ischia h2
         background-color: $bg-ischia
 
-    .location-bomba h2
-        background-color: $bg-bomba
+    .location-chieti h2
+        background-color: $bg-chieti
 
     .location-naples h2
         background-color: $bg-naples
@@ -168,5 +182,5 @@
     .location-palermo h2
         background-color: $bg-palermo
 
-    .location-rome h2
-        background-color: $bg-rome
+    .location-roma h2
+        background-color: $bg-roma

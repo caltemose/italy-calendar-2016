@@ -26,7 +26,11 @@
                 }, {
                     "icon": "house",
                     "title": "Travel to Ravino Gardens",
-                    "details": "hydrofoil: MOLO BEVERELLO to FORIO or ISCHIA<br>Residence Villa Ravino, Via Provinciale Panza, Forio<br>public bus Nr. 1 / 2 / CS<br>your stop: Distributore IP (petrol pump IP )<br>we are 50 mt further on, on the left side"
+                    "details": "hydrofoil: MOLO BEVERELLO to FORIO or ISCHIA<br>Residence Villa Ravino, Via Provinciale Panza, Forio<br>public bus Nr. 1 / 2 / CS<br>your stop: Distributore IP (petrol pump IP )<br>we are 50 mt further on, on the left side",
+                    "link": {
+                        "url": "https://www.airbnb.com/rooms/59339",
+                        "title": "airbnb"
+                    }
                 }
             ]
         }, {
@@ -55,11 +59,14 @@
             "items": []
         }, {
             "date": "2016-08-24",
-            "location": "bomba",
+            "location": "chieti",
             "items": [
                 {
+                    "title": "Rent Car in Naples",
+                    "details": "put rental details here"
+                }, {
                     "icon": "car",
-                    "title": "Abruzzo",
+                    "title": "Monteferrante",
                     "emphasize": true
                 }, {
                     "title": "Celebrate Dad's B-day"
@@ -67,19 +74,19 @@
             ]
         }, {
             "date": "2016-08-25",
-            "location": "bomba",
+            "location": "chieti",
             "items": []
         }, {
             "date": "2016-08-26",
-            "location": "bomba",
+            "location": "chieti",
             "items": []
         }, {
             "date": "2016-08-27",
-            "location": "bomba",
+            "location": "chieti",
             "items": []
         }, {
             "date": "2016-08-28",
-            "location": "bomba",
+            "location": "chieti",
             "items": [
                 {
                     "title": "Festival Day 1"
@@ -87,7 +94,7 @@
             ]
         }, {
             "date": "2016-08-29",
-            "location": "bomba",
+            "location": "chieti",
             "items": [
                 {
                     "title": "Festival Day 2"
@@ -106,7 +113,11 @@
         }, {
             "date": "2016-08-31",
             "location": "naples",
-            "items": []
+            "items": [
+                {
+                    "title": "Eat the shit outta some pizza"
+                }
+            ]
         }, {
             "date": "2016-09-01",
             "location": "naples",
@@ -114,14 +125,28 @@
         }, {
             "date": "2016-09-02",
             "location": "naples",
-            "items": []
+            "items": [
+                {
+                    "title": "Probably eat the shit outta some more pizza"
+                }
+            ]
         }, {
             "date": "2016-09-03",
             "location": "taormina",
             "items": [
                 {
+                    "title": "Train to Taormina"
+                }, {
                     "title": "Taormina",
                     "emphasize": true
+                }, {
+                    "icon": "house",
+                    "title": "Checkin Appartamento Panoramico",
+                    "details": "Via San Domenico, 7<br>Taormina, Sicily 98039<br>3PM Checkin<br>Clara: +39 335 732 7345",
+                    "link": {
+                        "url": "https://www.airbnb.com/rooms/1885898",
+                        "title": "airbnb"
+                    }
                 }
             ]
         }, {
@@ -139,13 +164,24 @@
             "location": "taormina",
             "items": [
                 {
-                    "title": "Visit Etna / Valle Alcantara"
+                    "title": "Etna",
+                    "link": {
+                        "url": "http://a.abcnews.go.com/images/International/gty_etna_eruption_02_jc_151204_4x3_992.jpg",
+                        "title": "image"
+                    }
                 }
             ]
         }, {
             "date": "2016-09-07",
             "location": "taormina",
             "items": [
+                {
+                    "title": "Valle Alcantara",
+                    "link": {
+                        "url": "http://www.bbghiritina.it/wp-content/uploads/2012/03/panorama_alcantara.jpg",
+                        "title": "image"
+                    }
+                }
             ]
         }, {
             "date": "2016-09-08",
@@ -196,29 +232,40 @@
             "items": []
         }, {
             "date": "2016-09-17",
-            "location": "palermo",
-            "items": []
-        }, {
-            "date": "2016-09-18",
-            "location": "rome",
+            "location": "roma",
             "items": [
                 {
+                    "title": "Fly to Rome"
+                }, {
                     "icon": "plane",
                     "title": "Roma",
                     "emphasize": true
                 }
             ]
         }, {
+            "date": "2016-09-18",
+            "location": "roma",
+            "items": [
+            ]
+        }, {
             "date": "2016-09-19",
-            "location": "rome",
-            "items": []
+            "location": "roma",
+            "items": [
+                {
+                    "title": "Ariccia",
+                    "link": {
+                        "title": "to eat this",
+                        "url": "https://www.google.com/search?site=&tbm=isch&source=hp&biw=1815&bih=1232&q=ariccia+fraschette&oq=ariccia+frasch&gs_l=img.3.0.0i30j0i8i30l4j0i24.348.8292.0.9070.29.24.5.0.0.0.283.2208.21j2j1.24.0....0...1.1.64.img..0.26.2069...0.dXXCueHO5Eg"
+                    }
+                }
+            ]
         }, {
             "date": "2016-09-20",
-            "location": "rome",
+            "location": "roma",
             "items": []
         }, {
             "date": "2016-09-21",
-            "location": "rome",
+            "location": "roma",
             "items": []
         }, {
             "date": "2016-09-22",

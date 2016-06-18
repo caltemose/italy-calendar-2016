@@ -1,7 +1,7 @@
 <li class="{% if location%}location-{{location}}{% else%}location-default{% endif %}">
     <div class="location-bar"></div>
     <div class="content">
-        <h2 {% if location %}class="location-{{location}}"{% endif %}>{{dayNumber}}<small>{{dayOfWeek}}</small></h2>
+        <h2 {% if location %}class="location-{{location}}"{% endif %}>{{dayNumber}}{% if month %}<small>{{month}}</small>{% endif %}</h2>
 
         <ul class="day-items">
             {% for item in items %}

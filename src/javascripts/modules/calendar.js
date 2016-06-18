@@ -68,6 +68,9 @@ export default class Calendar {
             let date = moment(days[i].date)
             days[i].dayNumber = date.format('D')
             days[i].dayOfWeek = date.format('dddd')
+            if (days[i].dayNumber === "1" || i === 0 || i === days.length - 1) {
+                days[i].month = date.format('MMMM')
+            }
             html += dayTemplate.render(days[i])
         }
         this.element.innerHTML = html

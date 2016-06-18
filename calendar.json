@@ -1,4 +1,13 @@
 {
+    "users": {
+        "qdKJPO6xq7R4YDZ1TAnA9AxzCnB2": {
+            "email": "chad@chadzilla.com",
+            "isAdmin": true
+        },
+        "BZD9IdvON6TFVbakSnwBzexBSxo1": {
+            "email": "caltemose@gmail.com"
+        }
+    },
     "days": [
         {
             "date": "2016-08-17",
@@ -26,7 +35,7 @@
                 }, {
                     "icon": "house",
                     "title": "Travel to Ravino Gardens",
-                    "details": "hydrofoil: MOLO BEVERELLO to FORIO or ISCHIA<br>Residence Villa Ravino, Via Provinciale Panza, Forio<br>public bus Nr. 1 / 2 / CS<br>your stop: Distributore IP (petrol pump IP )<br>we are 50 mt further on, on the left side",
+                    "details": "<em>hydrofoil:</em> MOLO BEVERELLO to FORIO or ISCHIA<br><em>Residence:</em> Villa Ravino, Via Provinciale Panza, Forio<br><em>Bus:</em> 1 / 2 / CS<br><em>Stop:</em> Distributore IP (petrol pump IP )<br>We are 50 mt down, on the left side",
                     "link": {
                         "url": "https://www.airbnb.com/rooms/59339",
                         "title": "airbnb"
@@ -66,7 +75,7 @@
                     "details": "put rental details here"
                 }, {
                     "icon": "car",
-                    "title": "Monteferrante",
+                    "title": "Chieti",
                     "emphasize": true
                 }, {
                     "title": "Celebrate Dad's B-day"
@@ -113,11 +122,7 @@
         }, {
             "date": "2016-08-31",
             "location": "naples",
-            "items": [
-                {
-                    "title": "Eat the shit outta some pizza"
-                }
-            ]
+            "items": []
         }, {
             "date": "2016-09-01",
             "location": "naples",
@@ -125,11 +130,7 @@
         }, {
             "date": "2016-09-02",
             "location": "naples",
-            "items": [
-                {
-                    "title": "Probably eat the shit outta some more pizza"
-                }
-            ]
+            "items": []
         }, {
             "date": "2016-09-03",
             "location": "taormina",
@@ -240,6 +241,20 @@
                     "icon": "plane",
                     "title": "Roma",
                     "emphasize": true
+                }, {
+                    "icon": "house",
+                    "title": "check-in Trastevere",
+                    "details": "Via delle Fratte di Trastevere, 51",
+                    "link": {
+                        "url": "https://www.airbnb.com/rooms/12406025",
+                        "title": "airbnb"
+                    }
+                }, {
+                    "title": "Apartment directions",
+                    "link": {
+                        "url": "https://goo.gl/56yXJh",
+                        "title": "map"
+                    }
                 }
             ]
         }, {

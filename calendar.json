@@ -117,6 +117,13 @@
                     "icon": "car",
                     "title": "Napoli",
                     "emphasize": true
+                }, {
+                    "title": "checkin hotel",
+                    "details": "Via Riviera di Chiaia 287",
+                    "link": {
+                        "url": "http://theroyalsexperience.com",
+                        "title": "Palazzo Satriano"
+                    }
                 }
             ]
         }, {
@@ -147,6 +154,11 @@
                     "link": {
                         "url": "https://www.airbnb.com/rooms/1885898",
                         "title": "airbnb"
+                    }
+                }, {
+                    "link": {
+                        "url": "https://goo.gl/maps/BeLis7W8Sbs",
+                        "title": "map"
                     }
                 }
             ]
@@ -196,12 +208,29 @@
                     "icon": "train",
                     "title": "Palermo",
                     "emphasize": true
+                }, {
+                    "title": "checkin Concetta's",
+                    "details": "Concetta's info"
                 }
             ]
         }, {
             "date": "2016-09-10",
             "location": "palermo",
-            "items": []
+            "items": [
+                {
+                    "title": "checkin HomeinCity",
+                    "details": "Via Principe di Belmonte, 96",
+                    "link": {
+                        "url": "https://www.airbnb.com/rooms/8176660",
+                        "title": "airbnb"
+                    }
+                }, {
+                    "link": {
+                        "url": "https://goo.gl/maps/TSbNHm4tDKP2",
+                        "title": "map"
+                    }
+                }
+            ]
         }, {
             "date": "2016-09-11",
             "location": "palermo",
